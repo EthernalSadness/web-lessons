@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="03.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="h1">Основні властивості CSS для роботи з текстом</h1>
+
+    <div class="nav">
+        <a href="#1">Властивість font-size</a> <br>
+        <a href="#2">Властивість font-weight</a> <br>
+        <a href="#3">Властивість font-style</a> <br>
+        <a href="#4">Властивість font-family</a> <br>
+        <a href="#5">Властивість color</a> <br>
+        <a href="#6">Властивість text-transform</a> <br>
+        <a href="#7">Властивість text-decoration</a> <br>
+    </div> 
+
+    <h2 class="h2" id="1">Властивість font-size</h2>
+    <div class="description">
+        <p>Властивість <span class="colortext">font-size</span> змінює розмір шрифта.<br>
+           Розмір шрифту задається за допомогою значення та одиниць виміру <span class="colortext">(em, px, pt, %)</span></p>
+    </div>
+    <h3 class="subtitle">Синтаксис:</h3>
+    <h3 class="subtitle2">CSS</h3>
+    <div class="bg">
+        <div class="css">
+            p{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;font-size: 20px;<br>
+            }
+        </div>
+    </div>
+        <h3 class="subtitle2">HTML</h3>
+    <div class="bg">
+        <div class="html">
+            &lt;p&gt; Hello, world! &lt;/p&gt;
+        </div>
+    </div>
+        <h3 class="subtitle">Результат:</h3>
+    <div class="bg">
+        <div class="result">
+            <p>Hello, world!</p>
+        </div>
+    </div>
+
+
+    <h2 class="h2" id="2">Властивість font-weight</h2>
+    <div class="description">
+        <p>Властивість <span class="colortext">font-weight</span> встановлює насиченість шрифту.<br>
+            Може приймати наступні значення:<br></p>
+            <ul>
+                <li><span class="colortext">normal</span> - нормальна насиченість, те саме, що і <span class="colortext">400</span></li>
+                <li><span class="colortext">bold</span> - напівжирний текст, те саме, що і <span class="colortext">700</span></li>
+                <li><span class="colortext">lighter</span> - змінює насиченість відносно батьківскього стилю в меншу сторону</li>
+                <li><span class="colortext">booker</span> - змінює насиченість відносно батьківскього стилю в більшу сторону</li>
+                <li><span class="colortext">100,200,300,400,500,600,700,800,900</span> - цифрові значення насиченості, які відрізняються від стандартних</li>
+            </ul>
+    </div>
+    <h3 class="subtitle">Синтаксис:</h3>
+    <h3 class="subtitle2">CSS</h3>
+    <div class="bg">
+        <div class="css">
+            .bold{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;font-weight: bold;<br>
+            }<br>
+            .thin{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;font-weight: 100;<br>
+            }<br>
+            .max{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;font-weight: 900;<br>
+            }<br>
+        </div>
+    </div>
+    <h3 class="subtitle2">HTML</h3>
+    <div class="bg">
+        <div class="html">
+            &lt;p&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "bold"&gt;Напівжирний текст&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "thin"&gt;Найтонший текст&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "max"&gt;Найтовший текст&lt;/span&gt;<br>
+            &lt;/p&gt;
+        </div>
+    </div>
+    <h3 class="subtitle">Результат:</h3>
+    <div class="bg">
+        <div class="result">
+            <p> <span class="bold">Напівжирний текст, </span><span class="thin">найтонший текст, </span><span class="max">найтовщий текст</span></p>
+        </div>
+    </div>
+
+
+    <h2 class="h2" id="3">Властивість font-style</h2>
+    <div class="description">
+        <p>Властивість <span class="colortext">font-style</span> зображення шрифту – звичайне, курсивне або похило.<br>
+            Може приймати наступні значення:<br></p>
+            <ul>
+                <li><span class="colortext">normal</span> - звичайне зображення тексту. </span></li>
+                <li><span class="colortext">italic</span> - курсивне зображення.</span></li>
+                <li><span class="colortext">oblique</span> - похило накреслення.</li>
+                <li><span class="colortext">inherit</span> - наслідує значення батька.</li>
+            </ul>
+    </div>
+    <h3 class="subtitle">Синтаксис:</h3>
+    <h3 class="subtitle2">CSS</h3>
+    <div class="bg">
+        <div class="css">
+            .normal{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;font-style: normal;<br>
+            }<br>
+            .italic{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;font-style: italic;<br>
+            }<br>
+            .oblique{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;font-style: oblique;<br>
+            }<br>
+        </div>
+    </div>
+    <h3 class="subtitle2">HTML</h3>
+    <div class="bg">
+        <div class="html">
+            &lt;p&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "normal"&gt;Звичайний текст&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "italic"&gt;Курсивний текст&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "oblique"&gt;Похилий текст&lt;/span&gt;<br>
+            &lt;/p&gt;
+        </div>
+    </div>
+    <h3 class="subtitle">Результат:</h3>
+    <div class="bg">
+        <div class="result">
+            <p> <span class="normal">Звичайний текст, </span><span class="italic">курсивний текст, </span><span class="oblique">похилий текст</span></p>
+        </div>
+    </div>
+
+
+    <h2 class="h2" id="4">Властивість font-family</h2>
+    <div class="description">
+        <p>Властивість <span class="colortext">font-family</span> встановлює сімейство шрифту, яке використовуватиметься для оформлення тексту вмісту.<br>
+            Може приймати наступні значення:<br></p>
+            <ul>
+                <li><span class="colortext">serif</span> - шрифти із засічками (антиквенні), типу Times; </span></li>
+                <li><span class="colortext">sans-serif</span> - рубані шрифти (шрифти без засічок чи гротески), типовий представник - Arial;</span></li>
+                <li><span class="colortext">cursive </span> - курсивні шрифти;</li>
+                <li><span class="colortext">fantasy </span> - декоративні шрифти;</li>
+            </ul>
+    </div>
+    <h3 class="subtitle">Синтаксис:</h3>
+    <h3 class="subtitle2">CSS</h3>
+    <div class="bg">
+        <div class="css">
+            .serif{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;font-family: serif;<br>
+            }<br>
+            .sans-serif{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;font-family: sans-serif;<br>
+            }<br>
+            .cursive{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;font-family: cursive;<br>
+            }<br>
+            .fantasy{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;font-family: fantasy;<br>
+            }<br>
+        </div>
+    </div>
+    <h3 class="subtitle2">HTML</h3>
+    <div class="bg">
+        <div class="html">
+            &lt;p&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "serif"&gt;Шрифти із засічками&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "sans-serif"&gt;Рубаний шрифт&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "cursive"&gt;Курсивний шрифт&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "fantasy"&gt;Декоративний шрифт&lt;/span&gt;<br>
+            &lt;/p&gt;
+        </div>
+    </div>
+    <h3 class="subtitle">Результат:</h3>
+    <div class="bg">
+        <div class="result">
+            <p> <span class="serif">Шрифти із засічками, </span><span class="sans-serif">рубаний шрифт, </span><span class="cursive">курсивний шрифт, </span><span class="fantasy">декоративний шрифт, </span></p>
+        </div>
+    </div>
+
+
+    <h2 class="h2" id="5">Властивість color</h2>
+    <div class="description">
+        <p>Властивість <span class="colortext">color</span> визначає колір тексту елемента.<br>
+            Може приймати наступні значення:<br></p>
+            <ul>
+                <li><span class="colortext">inherit</span> - наслідує значення батька. </span></li>
+            </ul>
+    </div>
+    <h3 class="subtitle">Синтаксис:</h3>
+    <h3 class="subtitle2">CSS</h3>
+    <div class="bg">
+        <div class="css">
+            .inherit{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;color: inherit;<br>
+            }<br>
+        </div>
+    </div>
+    <h3 class="subtitle2">HTML</h3>
+    <div class="bg">
+        <div class="html">
+            &lt;p&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "inherit"&gt;Значення батька.&lt;/span&gt;<br>
+            &lt;/p&gt;
+        </div>
+    </div>
+    <h3 class="subtitle">Результат:</h3>
+    <div class="bg">
+        <div class="result">
+            <p> <span class="inherit">Значення батька </span></p>
+        </div>
+    </div>
+
+
+    <h2 class="h2" id="6">Властивість text-transform</h2>
+    <div class="description">
+        <p>Властивість <span class="colortext">text-transform</span> керує перетворенням тексту елемента у великі або маленькі символи. <br>
+            Може приймати наступні значення:<br></p>
+            <ul>
+                <li><span class="colortext">capitalize</span> - перший символ кожного слова в реченні буде великим. Інші символи свого вигляду не змінюють. </span></li>
+                <li><span class="colortext">lowercase</span> - усі символи тексту стають малими (нижній регістр).</span></li>
+                <li><span class="colortext">uppercase </span> - усі символи тексту стають великими (верхній регістр).</li>
+                <li><span class="colortext">none </span> - не змінює регістр символів.</li>
+                <li><span class="colortext">inherit </span> - наслідує значення батька.
+                    ;</li>
+            </ul>
+    </div>
+    <h3 class="subtitle">Синтаксис:</h3>
+    <h3 class="subtitle2">CSS</h3>
+    <div class="bg">
+        <div class="css">
+            .capitalize{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;text-transform: capitalize;<br>
+            }<br>
+            .lowercase{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;text-transform: lowercase;<br>
+            }<br>
+            .uppercase{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;text-transform: uppercase;<br>
+            }<br>
+            .none{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;text-transform: none;<br>
+            }<br>
+            .inherit2{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;text-transform: inherit;<br>
+            }<br>
+        </div>
+    </div>
+    <h3 class="subtitle2">HTML</h3>
+    <div class="bg">
+        <div class="html">
+            &lt;p&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "capitalize"&gt;Лише перший символ буде великим&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "lowercase"&gt;Усі символи маленькі&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "uppercase"&gt;Усі символи великі&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "none"&gt;Не змінює регістр символів&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "inherit2"&gt;Наслідує значення батька&lt;/span&gt;<br>
+            &lt;/p&gt;
+        </div>
+    </div>
+    <h3 class="subtitle">Результат:</h3>
+    <div class="bg">
+        <div class="result">
+            <p> <span class="capitalize">Лише перший символ буде великим, </span><span class="lowercase">усі символи маленькі, </span><span class="uppercase">усі символи великі, </span><span class="none">не змінює регістр символів, </span><span class="inherit2">наслідує значення батька, </span></p>
+        </div>
+    </div>
+
+
+    <h2 class="h2" id="7">Властивість text-decoration</h2>
+    <div class="description">
+        <p>Властивість <span class="colortext">text-decoration</span> додає оформлення тексту як його підкреслення, перекреслення, лінії над текстом і миготіння.<br>
+            Може приймати наступні значення:<br></p>
+            <ul>
+                <li><span class="colortext">blink</span> - встановлює миготливий текст.</span></li>
+                <li><span class="colortext">line-through</span> - створює перекреслений текст.</span></li>
+                <li><span class="colortext">overline </span> - лінія проходить над текстом</li>
+                <li><span class="colortext">underline </span> - встановлює підкреслений текст.</li>
+                <li><span class="colortext">none </span> - скасовує всі ефекти, у тому числі підкреслення у посилань.</li>
+            </ul>
+    </div>
+    <h3 class="subtitle">Синтаксис:</h3>
+    <h3 class="subtitle2">CSS</h3>
+    <div class="bg">
+        <div class="css">
+            .blink{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;text-decoration: blink;<br>
+            }<br>
+            .line-through{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;text-decoration: line-through;<br>
+            }<br>
+            .overline{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;text-decoration: overline;<br>
+            }<br>
+            .underline{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;text-decoration: underline;<br>
+            }<br>
+            .none2{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;text-decoration: none;<br>
+            }<br>
+        </div>
+    </div>
+    <h3 class="subtitle2">HTML</h3>
+    <div class="bg">
+        <div class="html">
+            &lt;p&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "blink"&gt;Миготливий текст&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "line-through"&gt;Перекреслений текст&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "overline"&gt;Лінія проходить над текстом&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "underline"&gt;Підкреслений текст&lt;/span&gt;<br>
+                &nbsp;&nbsp;  &lt;span class = "none2"&gt;Скасовує всі ефекти&lt;/span&gt;<br>
+            &lt;/p&gt;
+        </div>
+    </div>
+    <h3 class="subtitle">Результат:</h3>
+    <div class="bg">
+        <div class="result">
+            <p> <span class="blink">Миготливий текст, </span><span class="line-through">перекреслений текст, </span><span class="overline">лінія проходить над текстом, </span><span class="underline">підкреслений текст, </span><span class="none2">скасовує всі ефекти</span></p>
+        </div>
+    </div>
+</body>
+</html>

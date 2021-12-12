@@ -1,0 +1,142 @@
+body {
+    font-family: Roboto;
+}
+
+.h1 {
+    color: #000;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.h2 {
+    color: #000;
+    font-style: 20px;
+    font-weight: bold;
+}
+
+.description {
+    color: #666;
+}
+
+.colortext {
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+.subtitle {
+    color: #000;
+    font-weight: bold;
+}
+
+.subtitle2 {
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+    font-weight:  600;
+}
+
+.css {
+    font-size: 12px;
+    color: #666;
+}
+
+.bg {
+    width: 600px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.max {
+    font-weight: 900;
+}
+
+.normal {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.inherit {
+    color: inherit;
+}
+
+.capitalize {
+        text-transform: capitalize;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.none {
+    text-transform: none;
+}
+
+.inherit2 {
+    text-transform: inherit;
+}
+
+.blink {
+    text-decoration: blink;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.none2 {
+    text-decoration: none;
+}
