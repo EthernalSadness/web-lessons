@@ -9,14 +9,6 @@ body {
     font-weight: bold;
 }
 
-.nav {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 .h2 {
     color: #000;
     font-style: 20px;
