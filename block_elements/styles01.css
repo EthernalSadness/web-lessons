@@ -1,0 +1,57 @@
+.task01 {                        
+    width: 400px;
+    height: 40px;
+}
+
+.first {
+
+    border:1px #fff  solid;
+    border-bottom: dashed;
+    border-bottom-color: red ;
+    border-top: 7px dotted;
+    border-top-color: green;
+    border-right: ridge 10px;
+    border-right-color: blue ;
+    border-left-color: gray ;
+    border-left: double;
+    margin-bottom: 30px;
+}
+
+.p1 {
+    padding-left: 30px;
+}
+
+.second {
+    border:1px #fff  solid;
+    border-bottom-color: red;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.third {
+    border:1px #fff  solid;
+    background-color: 	#bbf5f5;
+    border-left: 8px solid rgb(30, 124, 212);
+    margin-bottom: 30px;
+}
+
+.p3 {
+    padding-left: 30px;
+}
+
+.fourth {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 5px 5px 20px #a09ea1;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+.fourth:hover {
+    background-color: rgb(41, 163, 219);
+    color : #fff;
+}
+
+.p4 {
+    padding-left: 30px;
+}

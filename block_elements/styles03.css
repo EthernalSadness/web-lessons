@@ -1,0 +1,97 @@
+.cont {
+    height: 1023px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F4F4F4;
+    font-family: Roboto;
+}
+
+.logo {
+    float: left;
+    width: 250px;
+    height: 170px;
+    margin: 0px 6px 15px 110px
+}
+
+.h1 {
+    color: #11264E;
+    font-size: 60px;
+    font-style: normal;
+    padding: 65px 101px 15px 360px
+}
+
+.navigation {
+    height: 50px;
+    width: 1200px;
+    background-color: #11264E;
+
+}
+
+.list {
+    margin: 17px;
+}
+
+.list1{
+    padding-left: 83px;
+    margin: 17px;
+}
+.menu {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-style: normal;
+}
+
+a:hover{
+    text-decoration: underline ;
+}
+
+
+.menu li {
+    display: inline-block;
+}
+
+.main {
+    margin: 36px 100px 0px 100px;
+    background-color: #fff;
+    width: 1000px;
+}
+
+h2 {
+    font-size: 36px;
+    font-style: normal;
+    color: #000;
+    padding-top: 30px;
+    padding-left: 65px;
+    margin-bottom: 30px;
+    
+}
+
+img {
+    width: 250px;
+    height: 170px;
+}
+
+.img1 {
+    margin: 0px 36px 0px 42px;
+}
+
+.img2 {
+    margin: 0px 36px 0px 0px;
+}
+
+.img2 {
+    margin-right: 42px;
+}
+
+.text {
+    margin-left: 44px;
+    margin-right: 41px;
+}

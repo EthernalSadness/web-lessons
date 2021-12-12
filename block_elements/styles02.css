@@ -1,0 +1,38 @@
+.outside {
+    border : 1px solid lightgrey;
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.circle {
+    margin-top: 65px;
+    margin-left: 15px;
+    background-color: lightgrey;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    float: left;
+}
+
+.inside {
+    margin-left: 165px;
+    margin-top: 29px;
+    border : 1px solid lightgrey;
+    height: 190px;
+    width: 300px;
+}
+
+.shortLine {
+    height: 25px;
+    width: 130px;
+    margin: 20px 85px;
+    background:  linear-gradient(55deg, lightgrey, rgb(85, 82, 82));
+}
+
+.line {
+    background:  linear-gradient(55deg, lightgrey, rgb(85, 82, 82));
+    height: 25px;
+    width: 200px;
+    margin: 10px 50px;
+}
