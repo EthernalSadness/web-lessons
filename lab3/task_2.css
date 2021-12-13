@@ -1,0 +1,29 @@
+.container2 {
+    background-color:rgba(219, 216, 216, 0.555);
+    display: flex;
+    width: 900px;
+    align-items: center;
+    
+}
+
+.icons {
+    flex-direction:column-reverse;
+    display : inline-block;
+    text-align: center;
+}
+
+.Text {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px solid black;
+    
+}
+
+.img1 {
+    margin-bottom: 25px;
+}
+
+.img2 {
+    padding-bottom: 25px;
+}
+
