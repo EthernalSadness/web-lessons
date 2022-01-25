@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms01.css">
+</head>
+<body>
+    <h1> Анкета відвідувача ресторану </h1>
+    <form action="#">
+        
+        <fieldset>
+            <legend> Контакти </legend>
+            <label for="name"> <div style = "margin-top: 7px" class="txt">  Ім&#8217;я </div> <span class="first_form"> <input class = "sw" type=”text” id="name"> </span> </label> 
+            <label for="telephone"> <div style = "margin-top: 17px" class="txt"> Телефон </div> <span class="first_form"> <input class = "sw" type=”tel” id="telephone"> </span> </label> 
+            <label for="email"> <div style = "margin-top: 17px" class="txt"> Email </div> <span class="first_form"> <input class = "sw" type=”email” id="email"> </span> </label> 
+            <label for="date"> <div style = "margin-top: 17px" class="txt"> Дата відвідування </div> <span class="first_form"> <input style = "width:303px" class = "sw" type="date" id="date"> </span> </label>
+        </fieldset>
+
+        <fieldset>
+            <legend> Персональна інформація </legend>
+            <label for="number"> <div style = "margin-top: 7px" class="txt">Вік </div> <span class="first_form"> <input  class = "sw" type=”number” min=”1” max=”120” step=”1”> </span> </label> 
+            <label for="kitchen"> <div style = "margin-top: 17px" class="txt"> Улюблена кухня </div>
+                <span class="first_form">  
+                <select style = "width:309px" name="kitchen" id="">
+                    <option> Італійська </option>
+                    <option> Тайська </option>
+                    <option> Мексиканська </option>
+                    <option> Китайська </option>
+                    <option> Українська </option>
+                    <option> Японська </option>
+                    <option> Марроканська </option>
+                    <option> Індійська </option>
+
+            </select></span> 
+            </label> <br> <br>
+            <label for="wantMenu"> <div class="txt">Які страви ви хотіли би бачити в нашому меню? </div> <span class="first_form"><textarea style="width:302px" name="wantMenu" id="" cols="22" rows="5"></textarea> </span> </label>
+        </fieldset>
+
+        <fieldset>
+            <legend> Оцінка ресторану </legend>
+            <label class = "lb1" for="radio"> <div class="txt"> Як ви дізналися про наш ресторан? </div> <br>
+                <span class="second_form"> <input type="radio" name="contact" value="1">
+                    <label for="radio">Поруч з будинкомроботою</label> </span>
+                <span class="second_form"> <input type="radio" name="contact" value="2">
+                    <label for="radio">Реклама</label> </span>
+                <span class="second_form"> <input type="radio" name="contact" value="3">
+                    <label for="radio">Порадили знайомі</label> </span>
+                <span class="second_form"> <input type="radio" name="contact" value="4">
+                    <label for="radio">Пошук в мережі інтернет</label> </span>
+                <span class="second_form"> <input type="radio" name="contact" value="5">
+                    <label for="radio">Інше</label> </span>
+            </label> 
+            <label class = "lb2" for="radio"> <div class="txt"> Чи будете ви рекомендувати наш ресторан знайомим? </div> <br>
+                <span class="second_form"> <input type="radio" name="contact1" value="1" checked>
+                    <label for="radio">Так</label> </span>
+                 <span class="second_form"> <input type="radio" name="contact1" value="2">
+                    <label for="radio">Ні</label> </span>
+            </label>
+        </fieldset> 
+        <button style = "margin-top: 17px;" name="send"> Відправити </button>
+    </form>
+</body>
+</html>
